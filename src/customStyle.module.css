@@ -1,0 +1,35 @@
+.button{
+    background-color: black;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 15px;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.button:hover{
+    background-color: rgb(64, 63, 63);
+    color: beige;
+}
+.button span{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.error{
+    color: red;
+    font-size: 1rem;
+}
+.loading{
+    color: rgb(6, 69, 80);
+    font-size: 1rem;
+
+}
+.graphsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
