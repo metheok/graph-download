@@ -7,7 +7,7 @@
     font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
-
+    z-index: 3;
 }
 .button:hover{
     background-color: rgb(64, 63, 63);
@@ -38,4 +38,12 @@
     bottom: 12px;
     left: 0;
     right: 0;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.link:hover{
+    text-decoration: underline;
 }
