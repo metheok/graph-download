@@ -35,6 +35,7 @@ function App() {
   };
   return (
     <div className="App">
+      <div className="bg"></div>
       <header className="App-header">
         <button className={css.button} onClick={handleClick} disabled={loading}>
           {loading ? (
@@ -52,6 +53,12 @@ function App() {
         {loading && <p className={css.loading}>{loadingMessage}</p>}
         <canvas style={{ display: "none" }} id="myChart"></canvas>
       </header>
+      <span className={css.footer}>
+        Created with ❤️ by{" "}
+        <a href="https://www.okantroo.me/" rel="noreferrer" target="_blank">
+          Omar
+        </a>
+      </span>
     </div>
   );
 }
